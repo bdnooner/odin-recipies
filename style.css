@@ -1,11 +1,35 @@
 * {
     background-color: rgb(164, 248, 185);
 }
+
 .title {
-    color:rgb(8, 136, 171)
+    color:rgb(3, 95, 120);
+    text-align: center;
+    background-color: rgba(183, 138, 247, 0.334);
+    
 }
 .list {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main-links {
+    font-weight: bold;
+
+}
+
+.main-links .pies {
+    display: inline-block;
+    border-style:double;
+    border-color: rgb(0, 0, 0);
+    padding: 8px;
+    background-color: rgba(255, 166, 0, 0.607);
+}
+
+.ingredients {
+    text-align: left;
+}
+
+ul {
+    text-align: center;
 }
 
 p {
@@ -13,4 +37,9 @@ p {
     font-weight: bolder;
     font-size: 20px;
     text-decoration: underline;
+}
+
+img {
+    display: block;
+    margin: auto;
 }
